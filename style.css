@@ -2,7 +2,6 @@ body {
     background-color: bisque;
     font-family: Bai Jamjuree;
 }
-
 footer {
     background-color: black;
     color: white;
@@ -11,9 +10,26 @@ footer {
     width: 100%;
     height: 2rem;
 }
-
 footer p {
     text-align: center;
     font-size: 0.6rem;
     margin-top: 0.5rem;
+    /* código omitido */
+#container {
+    display: flex;
+}
+/* código omitido */
+.cartao { /*margin: 1rem 1rem;*/
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+    margin: 1rem 1rem;
+}
+.cartao__conteudo {
+    text-align: center;
+    background-color: aquamarine;
+    height: 100%;
+}
+/* código omitido */
 }
